@@ -17,7 +17,7 @@ This question was addressed as three discrete sub-questions:
 
 #### Question 1. Are small homes more valuable (per square foot) than large homes?
 
-![**Figure 1. Price per Square Foot by Home Size**](/Users/jeff/Desktop/K2_DataScience/K2_Project2/SLC_home_price_figures/Figure_4.png)
+![**Figure 1. Price per Square Foot by Home Size**](./SLC_home_price_figures/Figure_4.png)
 
 The mean price per square foot for a home less than 1200 sqft ('small') is \$249, greater than that of either 'medium' sized homes (\$195) or 'large' homes (\$208). **Relative to their size, small homes are more valuable than large homes**.
 
@@ -27,7 +27,7 @@ The mean price per square foot for a home less than 1200 sqft ('small') is \$249
 
 The price per square foot for home size categories (small, medium, and large) were plotted for three Salt Lake City regions: downtown, the eastern suburbs, and the western suburbs.
 
-![**Figure 2. Price per Square Foot by Size Category and Region**](/Users/jeff/Desktop/K2_DataScience/K2_Project2/SLC_home_price_figures/Figure_5a.png)
+![**Figure 2. Price per Square Foot by Size Category and Region**](./SLC_home_price_figures/Figure_5a.png)
 
 **Yes, a small home downtown is more valuable (relative to size) than a large house in the suburbs.** The median price per square foot for a small home in Downtown-SLC is \$304 while large homes in East-SLC and West-SLC are priced at \$216 and \$128, respectively. 
 
@@ -39,7 +39,7 @@ While a small home downtown is more valuable than a large home in the suburbs, a
 
 The normalized Zillow Home Value Index (ZHVI) was plotted for small homes downtown versus large homes in each of the two suburban regions (east and west).
 
-![**Figure 3. Historical Prices for Small Urban Homes and Large Suburban Homes**](/Users/jeff/Desktop/K2_DataScience/K2_Project2/SLC_home_price_figures/Figure_8.png)
+![**Figure 3. Historical Prices for Small Urban Homes and Large Suburban Homes**](./SLC_home_price_figures/Figure_8.png)
 
 Owning a large home in a fancy suburb is actually better than owning a small home downtown, but owning a small home downtown is usually better than owning a large home in a less desirable suburb.
 
