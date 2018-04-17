@@ -1,0 +1,34 @@
+# Living small in the city or large in the 'burbs?
+## Exploring Salt Lake City's real estate prices to address the eternal question
+
+#### Katherine Chandler, K2 Exploratory Data Analysis
+
+Small home proponents maintain that small homes are a great asset, but is this economic reality? Is a small urban home *really* a better investment than a large suburban home? The analysis presented in this repository explores this question using current and historical real estate prices for the Salt Lake City area obtained from the real estate market place Zillow.
+
+This repository contains the following folders and files:
+
+####[SLC_home_price_figures](https://github.com/katherinechandler/Zillow_Analysis_Salt_Lake_City/tree/master/SLC_home_price_figures)
+
+Images (.png) of the figures used in the project walkthrough (README.Rmd) and the project's Minimum Viable Product (Zillow_SLC_Analysis_MVP.Rmd). The analysis code to generate these figures is in the 'Zillow_Project2_Walk_Through.ipynb' file located in the 'zillow_analysis_notebooks'.
+
+####[zillow_analysis_notebooks](https://github.com/katherinechandler/Zillow_Analysis_Salt_Lake_City/tree/master/zillow_analysis_notebooks)
+
+The 'zillow_analysis_notebooks' contains three notebooks: the full analytical walk through ('Zillow_Project2_Walk_Through.ipynb'), the data processing notebook for the active listing real estate data ('Zillow_SLC_Current_Active_Listings.ipynb'), and the data processing notebook for the historical real estate data ('Zillow_SLC_Historical_Data.ipynb'). These processing notebooks also contain more extensive preliminary data analysis and commentary.
+
+This folder also contains the data files that are the output of the processing notebooks ('zillow_slc_current_listings_processed.csv' and 'zillow_slc_historic_prices_processed.csv'), and a file listing the neighborhood associated with each Salt Lake City ZIP code ('zip_codes_to_neighborhood').
+
+####[zillow_research_home_values](https://github.com/katherinechandler/Zillow_Analysis_Salt_Lake_City/tree/master/zillow_research_home_values)
+
+The 'zillow_research_home_values' folder contains 5 .csv files containing historical real estate prices obtained from the [Zillow Research Data sets](https://www.zillow.com/research/data/ "Zillow Research Data"). The 'Home Values' data sets are smoothed, seasonally adjusted aggregates of estimated real estate value cut by location (city, state, metro area) and a given housing type (single family, number of bedrooms, etc.). Estimated real estate value is measured as the Zillow Home Value Index (ZHVI), a home price index (in USD) computed based on proprietary statistical and machine learning models ([ZHVI methodology here](https://www.zillow.com/research/zhvi-methodology-6032/ "ZHVI methodology")).
+
+####[zillow_scraper_pycode](https://github.com/katherinechandler/Zillow_Analysis_Salt_Lake_City/tree/master/zillow_scraper_pycode)
+
+The 'zillow_scraper_pycode' contains several python scripts to scrape Zillow of active real estate listings given a set of ZIP codes. The 'zillow.py' files is based heavily on [```scrapehero zillow.py```](https://gist.github.com/scrapehero/5f51f344d68cf2c022eb2d23a2f1cf95 "scrapehero"), and the 'zillow_scraper_calls.py' calls the 'zillow.py' script and accepts a set of defined ZIP codes. The file also contains a list of 27 unique Salt Lake City ZIP codes ('slc_zip_codes') and the resulting scraped data in a csv file ('properties-slc.csv').
+
+####[README.Rmd](https://github.com/katherinechandler/Zillow_Analysis_Salt_Lake_City/blob/master/README.Rmd)
+
+This repository README is a project walk through of the Zillow real estate analysis. A complete walkthrough with code is in the 'Zillow_Project2_Walk_Through.ipynb' file located in the 'zillow_analysis_notebooks'.
+
+####[Zillow_SLC_Analysis_MVP.Rmd](https://github.com/katherinechandler/Zillow_Analysis_Salt_Lake_City/blob/master/Zillow_SLC_Analysis_MVP.Rmd)
+
+The Zillow_SLC_Analysis_MVP file contains an overview of the Minimum Viable Product summary of this project with three figures.
