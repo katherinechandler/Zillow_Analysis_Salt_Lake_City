@@ -43,10 +43,10 @@ The full pre-processing for the active listing data can be found in the 'Zillow_
 
 I started the analysis by getting a high level view of the real estate market in Salt Lake City. What neighborhoods are associated with the current active listings? What is the average size of a listed home in each neighborhood? What is the average price of a listed home in each neighborhood?
 
-![**Figure 1. Salt Lake City Active Listings by Neighborhood**](/Users/jeff/Desktop/K2_DataScience/K2_Project2/SLC_home_price_figures/Figure_1.png)
+![**Figure 1. Salt Lake City Active Listings by Neighborhood**](./SLC_home_price_figures/Figure_1.png)
 
 
-![**Figure 2. Square Footage and Price by Neighborhood**](/Users/jeff/Desktop/K2_DataScience/K2_Project2/SLC_home_price_figures/Figure_2.png)
+![**Figure 2. Square Footage and Price by Neighborhood**](./SLC_home_price_figures/Figure_2.png)
 
 Of the current active listings with Salt Lake City ZIP codes, about 1/3 (36%) are downtown properties. Looking at a summary of the listing features shows some pretty big differences in size and list price by neighborhood. An 'average' Cottonwood home has 4.6 beds in hefty a 4750 sqft with a price-tag of \$1.05 million, while an 'average' home in West Valley is a more modest 3.6 beds in ~2100 sqft for just \$318,212.
 
@@ -54,7 +54,7 @@ This data highlights further regional geographic distinctions that can be made i
 
 I plotted size (in square feet) and list price for Downtown-SLC, East-SLC, and West-SLC to see the spread of these regional differences.
 
-![**Figure 3. Size and Price Distribution by Region**](/Users/jeff/Desktop/K2_DataScience/K2_Project2/SLC_home_price_figures/Figure_3.png)
+![**Figure 3. Size and Price Distribution by Region**](./SLC_home_price_figures/Figure_3.png)
 
 Homes in Downtown-SLC (median size ~1880 sqft) and West-SLC (median size ~ 1920 sqft) skew smaller than those in East-SLC (median size ~3417 sqft). The West-SLC listings show a large number of listings less than 1500 sqft. The Zillow listing 'title' for these homes is 'Home For Sale' (rather than 'House For Sale'), which is curiously the Zillow euphemism for a trailer doublewide and accounts for the large number of very small, very cheap homes in West-SLC. The size distribution of East-SLC homes is broad, and the top quartile of homes is larger than 5244 sqft.
 
@@ -67,7 +67,7 @@ After an initial exploration of the data, I dug into the small versus large comp
 #### Question 1. Are small homes more valuable (per square foot) than large homes?
 To address this question, I plotted a bar graph of price per square foot for each of the home size_types (small, medium, and large).
 
-![**Figure 4. Price per Square Foot by Home Size**](/Users/jeff/Desktop/K2_DataScience/K2_Project2/SLC_home_price_figures/Figure_4.png)
+![**Figure 4. Price per Square Foot by Home Size**](./SLC_home_price_figures/Figure_4.png)
 
 The mean price per square foot for a home less than 1200 sqft ('small') is \$249, greater than that of either 'medium' sized homes (\$195) or 'large' homes (\$208). **Relative to their size, small homes are more valuable than large homes**. That was easy! Next I addressed geographic features in the small vs. large comparisons.
 
@@ -75,7 +75,7 @@ The mean price per square foot for a home less than 1200 sqft ('small') is \$249
 
 I approached this question directly by plotting price per square foot for home size categories in the three geographic regions. The answer to Question 1 also made me curious about whether the 'small homes are more valuable' finding holds up for all neighborhoods, so I addressed this question here as well. 
 
-![**Figure 5. Price per Square Foot by Size Category and Region or Neighborhood**](/Users/jeff/Desktop/K2_DataScience/K2_Project2/SLC_home_price_figures/Figure_5.png)
+![**Figure 5. Price per Square Foot by Size Category and Region or Neighborhood**](./SLC_home_price_figures/Figure_5.png)
 
 To strictly answer my question, **yes, a small home downtown is more valuable (relative to size) than a large house in the suburbs.** The median price per square foot for a small home in Downtown-SLC is \$304 while large homes in East-SLC and West-SLC are priced at \$216 and \$128, respectively. 
 
@@ -89,14 +89,14 @@ Additionally, I needed to address the differences in magnitude of the ZHVI for d
 
 The historic price data was processed using code in the 'Zillow_SLC_Historic_Data' notebook and saved to a csv file. To see the full processing code refer to the 'Zillow_SLC_Historic_Data' notebook.
 
-![**Figure 6. Square Feet by Bedroom Number**](/Users/jeff/Desktop/K2_DataScience/K2_Project2/SLC_home_price_figures/Figure_6.png)
+![**Figure 6. Square Feet by Bedroom Number**](./SLC_home_price_figures/Figure_6.png)
 
 
 The above plots confirm that the number of bedrooms is closely associated with square footage. One and two bedroom properties usually fall below the 'small' category cutoff of 1200 sqft (median size is 759 and 1202 sqft, respectively), and homes with four or more bedrooms usually fall within the 'large' category cutoff of 2500+ sqft (median size is 2696 sqft). Thus, for this analysis 'small' homes will be classified as 1-2 bedrooms and 'large' will be classified as 4 or more bedrooms.
 
 I began by plotting the relative ZHVI values for comparable home types in the three geographic regions. Note that the data for 1-bedroom homes in East-SLC and West-SLC is incomplete and inconsistent (likely due to too little data for the ZHVI machine learning model), so I omitted these data from this discussion. 
 
-![**Figure 7. Historical Prices for Comparable Homes By Region**](/Users/jeff/Desktop/K2_DataScience/K2_Project2/SLC_home_price_figures/Figure_7.png)
+![**Figure 7. Historical Prices for Comparable Homes By Region**](./SLC_home_price_figures/Figure_7.png)
 
 Relative to the start of the time series in 1996, properties in all 3 geographic regions appreciated largely in parallel. Small and medium homes in West-SLC appreciated more rapidly between 1996 and 2004, possibly due to being especially depressed at the start of the time series. 
 
@@ -106,7 +106,7 @@ During the current market recovery (2013 to present), all property types in all 
 
 After exploring the comparable data, I plotted normalized ZHVI for small homes downtown versus large homes in each of the two suburban regions.
 
-![**Figure 8. Historical Prices for Small Urban Homes and Large Suburban Homes**](/Users/jeff/Desktop/K2_DataScience/K2_Project2/SLC_home_price_figures/Figure_8.png)
+![**Figure 8. Historical Prices for Small Urban Homes and Large Suburban Homes**](./SLC_home_price_figures/Figure_8.png)
 
 The plots above tell a complex story, but in short owning a large home in a fancy suburb is actually better than owning a small home downtown, but owning a small home downtown is usually better than owning a large home in a less desirable suburb.
 
