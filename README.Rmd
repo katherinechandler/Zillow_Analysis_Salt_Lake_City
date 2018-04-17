@@ -3,7 +3,7 @@
 
 #### Katherine Chandler, K2 Exploratory Data Analysis
 
-Small home proponents maintain that small homes are a great asset, but is this economic reality? Is a small urban home *really* a better investment than a large suburban home? The analysis presented in this repository explores this question using current and historical real estate prices for the Salt Lake City area obtained from the real estate market place Zillow.
+Small home enthusiasts maintain that small homes are a great asset, but is this economic reality? Is a small urban home *really* a better investment than a large suburban home? The analysis presented in this repository explores this question using current and historical real estate prices for the Salt Lake City area obtained from the real estate market place Zillow.
 
 This repository contains the following folders and files:
 
@@ -25,9 +25,9 @@ The 'zillow_research_home_values' folder contains 5 .csv files containing histor
 
 The 'zillow_scraper_pycode' contains several python scripts to scrape Zillow of active real estate listings given a set of ZIP codes. The 'zillow.py' files is based heavily on [```scrapehero zillow.py```](https://gist.github.com/scrapehero/5f51f344d68cf2c022eb2d23a2f1cf95 "scrapehero"), and the 'zillow_scraper_calls.py' calls the 'zillow.py' script and accepts a set of defined ZIP codes. The file also contains a list of 27 unique Salt Lake City ZIP codes ('slc_zip_codes') and the resulting scraped data in a csv file ('properties-slc.csv').
 
-####[README.Rmd](https://github.com/katherinechandler/Zillow_Analysis_Salt_Lake_City/blob/master/README.Rmd)
+####[Zillow_SLC_Analysis_Walkthrough.Rmd](https://github.com/katherinechandler/Zillow_Analysis_Salt_Lake_City/blob/master/Zillow_SLC_Analysis_Walkthrough.Rmd)
 
-This repository README is a project walk through of the Zillow real estate analysis. A complete walkthrough with code is in the 'Zillow_Project2_Walk_Through.ipynb' file located in the 'zillow_analysis_notebooks'.
+The Zillow_SLC_Analysis_Walkthrough file is a project walk through of the Zillow real estate analysis. A complete walkthrough with analysis code and additional commentary is in the 'Zillow_Project2_Walk_Through.ipynb' file located in the 'zillow_analysis_notebooks'.
 
 ####[Zillow_SLC_Analysis_MVP.Rmd](https://github.com/katherinechandler/Zillow_Analysis_Salt_Lake_City/blob/master/Zillow_SLC_Analysis_MVP.Rmd)
 
