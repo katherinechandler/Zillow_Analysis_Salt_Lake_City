@@ -17,7 +17,7 @@ This question was addressed as three discrete sub-questions:
 
 #### Question 1. Are small homes more valuable (per square foot) than large homes?
 
-![**Figure 1. Price per Square Foot by Home Size**](./SLC_home_price_figures/Figure_4.png)
+![**Figure 1. Price per Square Foot by Home Size**](./SLC_home_price_figures/fig_4.png)
 
 The mean price per square foot for a home less than 1200 sqft ('small') is \$249, greater than that of either 'medium' sized homes (\$195) or 'large' homes (\$208). **Relative to their size, small homes are more valuable than large homes**.
 
@@ -27,27 +27,23 @@ The mean price per square foot for a home less than 1200 sqft ('small') is \$249
 
 The price per square foot for home size categories (small, medium, and large) were plotted for three Salt Lake City regions: downtown, the eastern suburbs, and the western suburbs.
 
-![**Figure 2. Price per Square Foot by Size Category and Region**](./SLC_home_price_figures/Figure_5a.png)
+![**Figure 2. Price per Square Foot by Size Category and Region**](./SLC_home_price_figures/fig5.png)
 
-**Yes, a small home downtown is more valuable (relative to size) than a large house in the suburbs.** The median price per square foot for a small home in Downtown-SLC is \$304 while large homes in East-SLC and West-SLC are priced at \$216 and \$128, respectively. 
+**Yes, a small home downtown is more valuable (relative to size) than a large house in the suburbs.** The median price per square foot for a small home in Central Salt Lake is \$323 while large homes in East, North-West-SLC, and South are priced at \$222, \$128, and \$148, respectively. 
 
-While a small home downtown is more valuable than a large home in the suburbs, a small home in Downtown-SLC is *not* more valuable (per square foot) than a small home in an eastern suburb. In fact, the most valuable asset type in this data is a small home in the suburb of Cottonwood (data not shown), with a median price per square foot of \$379.
+While a small home downtown is more valuable than a large home in the suburbs, a small home in Downtown-SLC is *not* more valuable (per square foot) than a small home in an eastern suburb. In fact, the most valuable asset type in this data is a small home in the suburb of Cottonwood, with a median price per square foot of \$364.
 
 
 
 #### Question 3: Has the relative value of small urban homes increased more than that of large suburban homes?
 
-The normalized Zillow Home Value Index (ZHVI) was plotted for small homes downtown versus large homes in each of the two suburban regions (east and west).
+The normalized Zillow Home Value Index (ZHVI) was plotted for small homes downtown versus large homes in each of the three suburban regions.
 
-![**Figure 3. Historical Prices for Small Urban Homes and Large Suburban Homes**](./SLC_home_price_figures/Figure_8.png)
+![**Figure 3. Historical Prices for Small Urban Homes and Large Suburban Homes**](./SLC_home_price_figures/fig8.png)
 
-Owning a large home in a fancy suburb is actually better than owning a small home downtown, but owning a small home downtown is usually better than owning a large home in a less desirable suburb.
+This data shows that in addition to being a less volitile investment, the relative value of small urban homes has appreciated more than that of large suburban homes, particularly in less desirable neighborhoods like North-West and South Salt Lake City. The 2018 data shows small homes at their highest valuation since 1996, while large suburban homes are appreciated to roughly the same valuation as during the 2006-2008 bubble.
 
-Relative to large homes in both suburban regions, small homes downtown did not appreciate as dramatically during the 2006-2009 boom. During the economic downturn in 2009, however, urban small homes maintained their value as well as large homes in suburban East-SLC and much better than large homes in suburban West-SLC.
-
-It is noteworthy that in this current market upswing (2013 to present) the ZHVI appreciation of small urban homes is catching up to that of large suburban homes. The 2018 data shows small homes at their highest valuation since 1996, while large suburban homes are appreciated to roughly the same valuation as during the 2006-2009 bubble.
-
-Is it better to own a small home downtown than a large home in the suburbs? The answer depends on the specific suburb and the market trajectory, but in the context of Salt Lake City and the current market boom it is **likely that small urban homes are a better investment than large suburban homes**. Small urban homes how have with the highest appreciation values since 1996 and a high likelihood of maintaining value well in the next downturn.
+Is it better to own a small home downtown than a large home in the suburbs? The answer undoubtably depends on the specific suburb and the market trajectory, but in the context of Salt Lake City and the current market boom I will give this question a **'probably' yes**. Small urban homes are rapidly appreciating and are likely to maintain value well in the next downturn.
 
 ## Summary
 
@@ -63,9 +59,10 @@ Is it better to own a small home downtown than a large home in the suburbs? The 
 
 * Has the relative value of small urban homes increased more rapidly than that of larger suburban homes?
     
-    **Not in previous real estate bubbles, but in the current market small urban homes have appreciated to their 
-    highest value since 1996. Additionally, price behavior in past downturns indicate that small urban homes
-    maintain their value as well or better than other property types during market corrections.** 
+    **Probably yes. During this current market bubble, small urban homes have appreciated to their highest value since 1996 and surpassed the relative appreciation of large suburban homes. Additionally, price behavior in past downturns indicate that urban homes (small and otherwise) maintain their value better than other property types during market corrections.** 
+    
+
+These findings are mixed for the small house people. Small urban homes do hold their value well and in the current market are appreciating quickly, but for prospective buyers small homes come with a high price per square foot. I am satisfied that small urban homes are a stable investment, but I suppose I'll have to keep an open mind about Salt Lake City's eastern suburbs. 
     
 ## Limitations and Further Exploration
 
