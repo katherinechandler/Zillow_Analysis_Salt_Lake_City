@@ -7,6 +7,34 @@ Small home enthusiasts maintain that small homes are a great asset, but is this 
 
 Below is an overview of the project structure.
 
-
-![](./zillow_figures/Project_Overview.png)
-
+`├──  README.md           		  <- README provides project organization`
+`├──  Project_Overview       		<- Diagram of project organization`
+`├──  Zillow_EDA_MVP.html      	<- MVP document for exploratory data analysis (K2 Unit2)`
+`├──  Zillow_Stats_MVP.html      <- MVP document for applied statistical analysis (K2 Unit3)`
+`│`
+`├── MVP                 		    <- Minimum Viable Product`
+`│   |__ Zillow_EDA_MVP.rmd      <- MVP document for exploratory data analysis (K2 Unit2)`
+`|   |__ Zillow_Stats_MVP.rmd    <- MVP document for statistical analysis (K2 Unit3)`
+`|   `
+`|`
+`├── zillow_figures          		<- Figures used in walkthroughs/ MVP documents`
+`│
+`├── zillow_analysis_notebooks   <- Jupyter notebooks and csv files used in data processing,`  
+`│   │						                   analysis, and project walkthroughs (Project2 and Project3)`
+`│   │`
+`│   |── Zillow_SLC_Current_Active_Listings.ipynb	<- processing code for active listings`
+`│   |── Zillow_SLC_Historical_Data.ipynb			<- processing code for historical listings`
+`│   |── Zillow_SLC_Statistical_Tests.ipynb			<- statistical code for Project3`
+`│   |── Zillow_Project2_Walk_Through.ipynb			<- walk through for Project2`            
+`│   |── Zillow_Project3_Walk_Through.ipynb			<- walk through for Project3`
+`│   |── zillow_slc_current_listings_processed.csv	<- output from notebook`
+`│   |── zillow_slc_historic_prices_processed.csv 	<- output from notebook`
+`│   |── zip_codes_to_neighborhood.csv				<- geographic information input`
+`│   |── neighborhood_to_region.csv				<- geographic information input`
+`│`
+`└── src                 		<- Source code used in statistical analysis`
+`    │`
+`    ├── analysis`         
+`    │   |── __init__.py    		<- Makes src a Python module`
+`    |   |__ zillowlib.py		<- statistical analysis functions`
+`    │   |__ linearreglib.py		<- linear regression functions`
