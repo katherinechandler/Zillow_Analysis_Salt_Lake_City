@@ -17,7 +17,7 @@ This question was addressed as three discrete sub-questions:
 
 #### Question 1. Are small homes more valuable (per square foot) than large homes?
 
-![**Figure 1. Price per Square Foot by Home Size**](./SLC_home_price_figures/fig_4.png)
+![**Figure 1. Price per Square Foot by Home Size**](../zillow_figures/fig_4.png)
 
 The mean price per square foot for a home less than 1200 sqft ('small') is \$249, greater than that of either 'medium' sized homes (\$195) or 'large' homes (\$208). **Relative to their size, small homes are more valuable than large homes**.
 
@@ -27,7 +27,7 @@ The mean price per square foot for a home less than 1200 sqft ('small') is \$249
 
 The price per square foot for home size categories (small, medium, and large) were plotted for three Salt Lake City regions: downtown, the eastern suburbs, and the western suburbs.
 
-![**Figure 2. Price per Square Foot by Size Category and Region**](./SLC_home_price_figures/fig5.png)
+![**Figure 2. Price per Square Foot by Size Category and Region**](../zillow_figures/fig5.png)
 
 **Yes, a small home downtown is more valuable (relative to size) than a large house in the suburbs.** The median price per square foot for a small home in Central Salt Lake is \$323 while large homes in East, North-West-SLC, and South are priced at \$222, \$128, and \$148, respectively. 
 
@@ -39,7 +39,7 @@ While a small home downtown is more valuable than a large home in the suburbs, a
 
 The normalized Zillow Home Value Index (ZHVI) was plotted for small homes downtown versus large homes in each of the three suburban regions.
 
-![**Figure 3. Historical Prices for Small Urban Homes and Large Suburban Homes**](./SLC_home_price_figures/fig8.png)
+![**Figure 3. Historical Prices for Small Urban Homes and Large Suburban Homes**](../zillow_figures/fig8.png)
 
 This data shows that in addition to being a less volitile investment, the relative value of small urban homes has appreciated more than that of large suburban homes, particularly in less desirable neighborhoods like North-West and South Salt Lake City. The 2018 data shows small homes at their highest valuation since 1996, while large suburban homes are appreciated to roughly the same valuation as during the 2006-2008 bubble.
 
