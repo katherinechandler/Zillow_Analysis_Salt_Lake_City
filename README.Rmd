@@ -1,3 +1,10 @@
+---
+title: "Zillow_README"
+author: Katherine Chandler
+date: May 17, 2018
+output: md_document
+---
+
 # Living small in the city or large in the 'burbs?
 ### An exploratory and statistical analysis of Salt Lake City's real estate prices to address the eternal question
 
