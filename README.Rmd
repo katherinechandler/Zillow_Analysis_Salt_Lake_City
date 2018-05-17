@@ -14,4 +14,4 @@ Small home enthusiasts maintain that small homes are a great asset, but is this 
 
 Below is an overview of the project structure.
 
-![**File Structure Overview**](./zillow_figures/Project_Overview.png)
+![**File Structure Overview**](./zillow_figures/test.png)

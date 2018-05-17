@@ -11,7 +11,7 @@ investment than a large suburban home? The analysis in this repository
 explores this question using current and historical real estate data
 from the real estate market place Zillow
 (Zillow\_Project2\_Walk\_Through.ipynb). The findings of the initial
-exploratory data analysis was confirmed with an inferential statistical
+exploratory data analysis were confirmed with an inferential statistical
 analysis; additionally, a multi-variate linear regression model was
 built to further explore relationships in the data
 (Zillow\_Project3\_Walk\_Through.ipynb).
